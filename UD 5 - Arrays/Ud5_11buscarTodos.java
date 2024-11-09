@@ -70,7 +70,7 @@ public class Ud5_11buscarTodos {
         int[] indexFromCounter = new int[claveCounter];
         int indiceActual = 0;
 
-        // Recorremos el arreglo de nuevo y guardamos los índices donde se encuentra la clave
+        // Recorremos el array de nuevo y guardamos los índices donde se encuentra la clave
         for (int i = 0; i < t.length; i++) {
             if (t[i] == clave) {
                 indexFromCounter[indiceActual] = i;
